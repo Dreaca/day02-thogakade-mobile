@@ -5,6 +5,7 @@ export default function DashBoardLayout() {
         <Drawer initialRouteName="customer">
             <Drawer.Screen name="customer" options={{title:"Customer Dashboard"}} />
             <Drawer.Screen name="item" options={{title:"Item Dashboard"}} />
+            <Drawer.Screen name="placeOrder" options={{title:"Place Order"}} />
         </Drawer>
     );
 }
