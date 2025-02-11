@@ -47,17 +47,6 @@ export default function Customer() {
                     </DataTable.Row>
                 ))}
 
-                {/*<DataTable.Pagination
-                    page={page}
-                    numberOfPages={Math.ceil(items.length / itemsPerPage)}
-                    onPageChange={(page) => setPage(page)}
-                    label={`${from + 1}-${to} of ${items.length}`}
-                    numberOfItemsPerPageList={numberOfItemsPerPageList}
-                    numberOfItemsPerPage={itemsPerPage}
-                    onItemsPerPageChange={onItemsPerPageChange}
-                    showFastPaginationControls
-                    selectPageDropdownLabel={'Rows per page'}
-                />*/}
             </DataTable>
         </View>
     );
